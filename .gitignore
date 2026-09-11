@@ -1,0 +1,85 @@
+# Python cache / compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE / editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and generated experiment outputs
+logs/
+Logs/
+outputs/
+visualizations/tsne/
+runs/
+*.log
+
+# TensorBoard / checkpoints / model outputs
+*.ckpt
+*.pth
+*.pt
+*.bin
+*.safetensors
+*.onnx
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# Dataset binaries: keep documentation, exclude data assets
+datasets/**/*.mat
+datasets/**/*.pkl
+datasets/**/*.pickle
+datasets/**/*.npy
+datasets/**/*.npz
+datasets/**/*.h5
+datasets/**/*.hdf5
+datasets/**/*.csv
+!datasets/README.md
+
+# Pretrained-model assets: keep documentation only
+pretrained_models/**/config.json
+pretrained_models/**/tokenizer.json
+pretrained_models/**/tokenizer_config.json
+pretrained_models/**/special_tokens_map.json
+pretrained_models/**/vocab.txt
+pretrained_models/**/sentence_bert_config.json
+pretrained_models/**/modules.json
+pretrained_models/**/1_Pooling/
+pretrained_models/**/*.bin
+pretrained_models/**/*.safetensors
+pretrained_models/**/*.pt
+!pretrained_models/**/README.md
+
+# Local environment / secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
