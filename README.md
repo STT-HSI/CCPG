@@ -2,6 +2,12 @@
 
 ## Requirements
 
+Install the Python dependencies with:
+
+```bash
+pip install -r requirements.txt
+```
+
 The current requirements are:
 
 * NumPy
@@ -14,8 +20,6 @@ The current requirements are:
 * Transformers
 * PEFT
 
-## 
-
 ## Training
 
 Run the desired dataset entry point from the repository root.
@@ -23,25 +27,25 @@ Run the desired dataset entry point from the repository root.
 ### Indian Pines
 
 ```bash
-python train\\\_ccpg\\\_indian\\\_pines.py
+python train\_ccpg\_indian\_pines.py
 ```
 
 ### Salinas
 
 ```bash
-python train\\\_ccpg\\\_salinas.py
+python train\_ccpg\_salinas.py
 ```
 
 ### University of Pavia
 
 ```bash
-python train\\\_ccpg\\\_university\\\_of\\\_pavia.py
+python train\_ccpg\_university\_of\_pavia.py
 ```
 
 ### Houston
 
 ```bash
-python train\\\_ccpg\\\_houston.py
+python train\_ccpg\_houston.py
 ```
 
 Each entry point loads its default configuration from `configs/`.
